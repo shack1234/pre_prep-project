@@ -1,0 +1,211 @@
+
+#nav_menu{
+    overflow: hidden;
+    background-color:blue;
+    text-align: right;
+    position: relative;
+    margin-bottom: 0em;
+    padding:0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+#nav_menu a{
+    color:black;
+    float: right;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    padding: 14px 16px;
+}
+#nav_menu a:hover{
+    color: #373737;
+    text-decoration: none;
+    background-color: blue;
+}
+*{
+    color:black;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    margin:0;
+    padding:0;
+    background-color: rgba(45, 75, 89, 20%);
+}
+#banner{
+    padding-bottom: 1.5%;
+  }
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+	color: black;
+	text-align: center;
+ }
+.register{
+	width:360px;
+	height: 550px;
+	color:#ffffff;
+	margin: 7% 40%;
+	position: absolute;
+	box-sizing: border-box;
+	border-style: solid;
+	font-size: 20px;
+	font-family:aerial;
+	padding: 20px;
+}
+ .register p{
+  margin:0;
+  padding: 0;
+  font-weight: bold;
+  color: indigo;
+}
+.register input, select{
+	width:100%;
+	margin-bottom: 50px;
+}
+.register input[type="text"],input[type="password"],input[type="email"],input[type="file"]{
+	border: none;
+	border-bottom: 1px solid #ffffff;
+	background:transparent;
+	outline: none;
+	height: 40px;
+	color: #373737;
+	font-size: 16px;
+}
+.register select{
+	border: none;
+	border-bottom: 1px solid #ffffff;
+	background:transparent;
+	outline: none;
+	height: 40px;
+	color: #373737;
+	font-size: 20px;
+}
+.register input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background:#DAF7A6;
+  color:blue;
+  font-size: 18px;
+  border-radius: 15px;
+  font-family:Bell MT;
+  }
+.register input[type="submit"]:hover{
+	cursor: pointer;
+	background:#DAF7A6;
+	color:000;
+}
+#contacts > p,h2{
+  text-align: center;
+  color:blue;
+  text-transform: capitalize;
+  margin:0;
+  padding: 0;
+  font-weight: bold;
+  color: indigo;
+}
+#about{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:lightblue;
+  -webkit-flex: 3;
+  -ms-flex: 2;
+  flex: 3;
+  padding: 20px;
+  width: 100;
+  height: 70;
+}
+h2{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+        /* Container for flexboxes */
+section{
+    display: -webkit-flex;
+    display: flex;
+  }
+        /* Style the content */
+  article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 20px;
+  }
+      /* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  /* Style the navigation menu */
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+  }
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+      /* Style the content */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #DAF7A6;
+    padding: 10px;
+  }
+ img{
+     background-size: cover;
+    }
+ #contact td,th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: white;
+    text-align: center;
+ }
+#contact tr{
+    background-color:grey;
+}
+#contact tr:hover{
+    background-color:rgba(0, 0, 0, 0.5);
+    color:rgba(red, green, blue, alpha);
+}
+#contact th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color:black;
+}
+#contact{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+h3{
+    color: mediumseagreen;
+    word-wrap: break-word;
+    font-size: 46;
+}
+#solutions p{
+    font-size: large;
+    word-spacing: 7.5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+/* #home{
+  background-image: url("./images/back\(1\).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+} */
